@@ -19,7 +19,7 @@ Meeting time: 5pm Toronto/ 11pm Munich
 
 3. Next plan
    1. EDA, Chris checks if there are other useful features
-   2. Model, Bobber add CNN. CX: 0.38475, LP 0.345
+   2. Model, Bobber add CNN.
    3. Stack, Bobber adds stacks
    4. Post/process, Chris checks it.
 
@@ -29,7 +29,7 @@ Next meet time: 5pm Toronto/ 11pm Munich
 ## Meeting 10/9
 What we did:
 1. EDA, Chris found https://www.kaggle.com/danofer/ts-windows-feature-engineering-ventilators.
-2. Model, Bobber added CNN and merged aboved EDA, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn.ipynb
+2. Model, Bobber added CNN and merged aboved EDA, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn.ipynb. CX: 0.38475, LP 0.345
 
 In Progress:
 1. Run BiLSTM with Colab.
