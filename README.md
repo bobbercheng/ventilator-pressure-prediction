@@ -24,3 +24,17 @@ Meeting time: 5pm Toronto/ 11pm Munich
    4. Post/process, Chris checks it.
 
 Next meet time: 5pm Toronto/ 11pm Munich
+
+
+## Meeting 10/9
+What we did:
+1. EDA, Chris found https://www.kaggle.com/danofer/ts-windows-feature-engineering-ventilators.
+2. Model, Bobber added CNN and merged aboved EDA, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn.ipynb
+
+In Progress:
+1. Run BiLSTM with Colab.
+
+Next Plan:
+1. Model
+   1. Chris will check https://www.kaggle.com/lucamassaron/rescaling-layer-for-discrete-output-in-tensorflow
+   2. Bobber will try to add attention or combine CNN and BiLSTM
