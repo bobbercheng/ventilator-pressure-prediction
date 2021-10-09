@@ -19,7 +19,7 @@ Meeting time: 5pm Toronto/ 11pm Munich
 
 3. Next plan
    1. EDA, Chris checks if there are other useful features
-   2. Model, Bobber add CNN
+   2. Model, Bobber add CNN. CX: 0.38475, LP 0.345
    3. Stack, Bobber adds stacks
    4. Post/process, Chris checks it.
 
