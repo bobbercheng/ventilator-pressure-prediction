@@ -51,3 +51,10 @@ Next Plan:
    2. Bobber will add new cat output what have 101 types corresponding 100 values of pressure.
    3. Chris try to combine CNN and BiLSTM.
 
+## Meeting 10/10
+What we did:
+1. EDA: Bobber confirmed that in range 4-11, predict pressure only use same 100 values as train data, refer to https://www.kaggle.com/bobber/cat-presure.
+2. Model: Bobber added attention and residul. 4 layer Attentions improves LB to 0.158. It takes 8 hours to get result.
+
+In progress:
+1. Model: Bobber added residul
