@@ -47,7 +47,7 @@ What we did:
 
 Next Plan:
 1. Model
-   1. Bobber add simple attention.
+   1. Bobber add simple attention. 0.158. https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator-bidirectional-lstm-modification_v3.ipynb
    2. Bobber will add new cat output what have 101 types corresponding 100 values of pressure.
    3. Chris try to combine CNN and BiLSTM.
 
