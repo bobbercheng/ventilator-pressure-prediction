@@ -38,3 +38,16 @@ Next Plan:
 1. Model
    1. Chris will check https://www.kaggle.com/lucamassaron/rescaling-layer-for-discrete-output-in-tensorflow
    2. Bobber will try to add attention or combine CNN and BiLSTM
+
+## Meeting 10/9
+What we did:
+1. EDA: Bobber found pressure only have 950 values. In range 4-11, pressure only have 100 values and R/C only have 10 combination.
+1. Model
+   1. Chris checked https://www.kaggle.com/lucamassaron/rescaling-layer-for-discrete-output-in-tensorflow and median_round. It improved PL 0.001
+
+Next Plan:
+1. Model
+   1. Bobber add simple attention.
+   2. Bobber will add new cat output what have 101 types corresponding 100 values of pressure.
+   3. Chris try to combine CNN and BiLSTM.
+
