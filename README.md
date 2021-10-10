@@ -1,6 +1,6 @@
 # ventilator-pressure-prediction
 
-## Meeting 10/8
+## Meeting 10/7
 
 Participants: Chris, Bobber
 
@@ -26,7 +26,7 @@ Meeting time: 5pm Toronto/ 11pm Munich
 Next meet time: 5pm Toronto/ 11pm Munich
 
 
-## Meeting 10/9
+## Meeting 10/8
 What we did:
 1. EDA, Chris found https://www.kaggle.com/danofer/ts-windows-feature-engineering-ventilators.
 2. Model, Bobber added CNN and merged aboved EDA, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn.ipynb. CX: 0.38475, LP 0.345
