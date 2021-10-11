@@ -63,4 +63,5 @@ In progress:
    3. Submit https://www.kaggle.com/cdeotte/ensemble-folds-with-median-0-153
 
 Next plan:
-   1. Fine tine the best public model from https://www.kaggle.com/mistag/pred-ventilator-lstm-model/notebook
+   1. Fine tine the best public model from https://www.kaggle.com/mistag/pred-ventilator-lstm-model/notebook. Don't use it, it only can get LP 0.157
+   2. Fine tine the second public mode from https://www.kaggle.com/bobber/single-bi-lstm-model-pressure-predict-gpu-infer, LP 0.152
