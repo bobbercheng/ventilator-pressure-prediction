@@ -57,4 +57,10 @@ What we did:
 2. Model: Bobber added attention and residul. 4 layer Attentions improves LB to 0.158. It takes 8 hours to get result.
 
 In progress:
-1. Model: Bobber added residul
+1. Model: 
+   1. Bobber added residul
+   2. Chris mix CNN and BiLSTM
+   3. Submit https://www.kaggle.com/cdeotte/ensemble-folds-with-median-0-153
+
+Next plan:
+   1. Fine tine the best public model from https://www.kaggle.com/mistag/pred-ventilator-lstm-model/notebook
