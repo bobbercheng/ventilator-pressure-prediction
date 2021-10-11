@@ -58,7 +58,7 @@ What we did:
 
 In progress:
 1. Model: 
-   1. Bobber added residul
+   1. Bobber added residul. Version 14 is bad, LB 0.17
    2. Chris mix CNN and BiLSTM
    3. Submit https://www.kaggle.com/cdeotte/ensemble-folds-with-median-0-153
 
