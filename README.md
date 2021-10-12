@@ -72,7 +72,8 @@ What we did:
 2. Bobber increased CNN to 2024 but CV doesn't improve as 1024. Refer to https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn_2048_attention.ipynb
 
 Next plan:
-1. Model:
+1. Meet new member.
+2. Model:
    1. Fine tune the second public mode from https://www.kaggle.com/bobber/single-bi-lstm-model-pressure-predict-gpu-infer, LP 0.152
-   2. Combine CNN and BiLSTM
+   2. Combine CNN and BiLSTM - Chris
    3. Try Transfer - Bobber
