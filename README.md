@@ -65,3 +65,14 @@ In progress:
 Next plan:
    1. Fine tune the best public model from https://www.kaggle.com/mistag/pred-ventilator-lstm-model/notebook. Don't use it, it only can get LP 0.157
    2. Fine tune the second public mode from https://www.kaggle.com/bobber/single-bi-lstm-model-pressure-predict-gpu-infer, LP 0.152
+
+## No meeting 10/11
+What we did:
+1. The organizer published https://arxiv.org/pdf/2102.06779.pdf. In the paper, they train different model with different R/C. The best MAE is 0.27 while the best in PL is 0.119. It's amazing.
+2. Bobber increased CNN to 2024 but CV doesn't improve as 1024. Refer to https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn_2048_attention.ipynb
+
+Next plan:
+1. Model:
+   1. Fine tune the second public mode from https://www.kaggle.com/bobber/single-bi-lstm-model-pressure-predict-gpu-infer, LP 0.152
+   2. Combine CNN and BiLSTM
+   3. Try Transfer - Bobber
