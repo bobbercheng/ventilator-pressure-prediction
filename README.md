@@ -79,3 +79,4 @@ Next plan:
    2. Combine CNN and BiLSTM - Chris
    3. Try transformer - Bobber
    4. WaveNet
+   5. EfficientNet
