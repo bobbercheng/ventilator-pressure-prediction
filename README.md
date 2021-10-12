@@ -95,3 +95,6 @@ Next Plan:
 2. Conccat Transformer and BiLSTM.
 3. Use embeding for R C.
 4. Randon seed/state. Fine tune. tf.set_random_seed(seed_value).
+  TF 2.0
+  import tensorflow as tf
+  tf.random.set_seed(221)
