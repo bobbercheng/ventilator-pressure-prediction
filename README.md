@@ -70,7 +70,7 @@ Next plan:
 What we did:
 1. The organizer published https://arxiv.org/pdf/2102.06779.pdf. In the paper, they train different model with different R/C. The best MAE is 0.27 while the best in PL is 0.119. It's amazing.
 2. Bobber increased CNN to 2024 but CV doesn't improve as 1024. Refer to https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_1d_cnn_2048_attention.ipynb
-3. Why we only need encoder instead encoder-decoder in this competition? Because we need to predict from high demision feature but we don't need generate different sentences like NLP.
+3. Why we only need encoder instead encoder-decoder in this competition? Because we need to predict from hidden state or high demission features but we don't need generate different sentences like NLP.
 
 Next plan:
 1. Meet new member.
