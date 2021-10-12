@@ -80,3 +80,18 @@ Next plan:
    3. Try transformer - Bobber
    4. WaveNet
    5. EfficientNet
+
+## meeting 10/12
+What we did:
+1. Model: 
+   1. Chris combined CNN and BiLSTM. CNN as input to BiLSTM is not good.
+   2. Concate CNN and BiLSTL. It looks promising and wait for result.
+   3. Bobber implemented Transformer.
+      1. Without Position Encode, PL: 0.26 CV: 0.26
+      2. With Position Encode. CV.9.23, PL:
+
+Next Plan:
+1. Pick up the best public BiLSTM model.
+2. Conccat Transformer and BiLSTM.
+3. Use embeding for R C.
+4. Randon seed/state. Fine tune. tf.set_random_seed(seed_value).
