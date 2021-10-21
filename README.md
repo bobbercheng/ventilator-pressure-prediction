@@ -98,3 +98,12 @@ Next Plan:
   TF 2.0
   import tensorflow as tf
   tf.random.set_seed(221)
+  
+  ## meeting 10/12
+  Sorry for no update many days.
+  
+  What we did:
+  1. GB+Rescaling has 0.1427 in PL. Great job, Chris
+  2. Implemented full Transformer https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_transformer_V6.ipynb. However, V6 doesn't converge as Transformer-Encoder.
+  3. Analyze predict https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/Analyze_predict_data.ipynb.
+     1. Mean of MAE has long tail
