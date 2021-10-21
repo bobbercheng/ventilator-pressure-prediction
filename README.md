@@ -99,11 +99,27 @@ Next Plan:
   import tensorflow as tf
   tf.random.set_seed(221)
   
-  ## meeting 10/12
+  ## meeting 10/20
   Sorry for no update many days.
   
   What we did:
   1. GB+Rescaling has 0.1427 in PL. Great job, Chris
   2. Implemented full Transformer https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_transformer_V6.ipynb. However, V6 doesn't converge as Transformer-Encoder.
   3. Analyze predict https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/Analyze_predict_data.ipynb.
-     1. Mean of MAE has long tail
+     1. Mean of MAE has long tail. It's normal.
+     2. No zero error, 这就意味可以尝试用分类来减少误差
+     3. When pressure changes dymatically, it cannot predict well.
+     4. Different RC has different error distribution
+     20-10 - MAE  0.15342606138845297, count: 184106
+         - 20-20 - MAE  0.16133572280868774, count: 185841
+         - 20-50 - MAE  0.16003437620608627, count: 243184
+         - 5-10 - MAE  0.15912988705787456, count: 249386
+         - 5-20 - MAE  0.11116782628501401, count: 255571
+         - 5-50 - MAE  0.11376304575751983, count: 245700
+         - 50-10 - MAE  0.16271191963964562, count: 418114
+         - 50-20 - MAE  0.2426435067746749, count: 255953
+         - 50-50 - MAE  0.2504960925707726, count: 253113
+
+What we plan to do:
+   1. Data: try to use 40 instead 80 for train - Chris
+   2. Add attention to learn pressure changes - Bobber
