@@ -139,5 +139,6 @@ What we did:
 4. Previous transformer mode is not good because it's normalize all data and loss scale. We can consider to use transformer to generate weight and multiply inputs instead of add weights.
 
 What we plan to do:
-   1. Complete https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_eda_V8_GPU.ipynb
-   2. Check  Temporal Fusion Transformers (TFT) for Interpretable Multi-horizon Time Series Forecasting, https://arxiv.org/abs/1912.09363
+   1. blending
+   2. Complete https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_eda_V8_GPU.ipynb
+   3. Check  Temporal Fusion Transformers (TFT) for Interpretable Multi-horizon Time Series Forecasting, https://arxiv.org/abs/1912.09363
