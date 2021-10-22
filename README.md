@@ -123,3 +123,21 @@ Next Plan:
 What we plan to do:
    1. Data: try to use 40 instead 80 for train - Chris
    2. Add attention to learn pressure changes - Bobber
+
+## meeting 10/21
+What we did:
+1. We need to run at lest one folder to test the model.
+2. Bobber is adding self attention
+3. Chris is doing ensambling
+4. We need to check tree based model like LGB/XGBoot for big errors like RC 50-50, 50-20
+
+## meeting 10/22
+What we did:
+1. Fixed "Allocate more memory issue" for Kaggle GPU.
+2. created new DB to collect the best models.
+3. self attention is added, https://www.kaggle.com/bobber/ventilator-gb-rescaling-eda-v8-gpu, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_eda_V8_GPU.ipynb
+4. Previous transformer mode is not good because it's normalize all data and loss scale. We can consider to use transformer to generate weight and multiply inputs instead of add weights.
+
+What we plan to do:
+   1. Complete https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_eda_V8_GPU.ipynb
+   2. Check  Temporal Fusion Transformers (TFT) for Interpretable Multi-horizon Time Series Forecasting, https://arxiv.org/abs/1912.09363
