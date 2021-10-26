@@ -154,8 +154,9 @@ No meeting
 
 ## meeting 10/25
 What we did:
-1. added Auto encoder. https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_V12_GPU.ipynb
-2. LightGBM model, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/VPP_LGBM_GPU_0.4506.ipynb.
+1. explain R/C, https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/276599, https://www.kaggle.com/c/ventilator-pressure-prediction/discussion/276828
+2. added Auto encoder. https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_V12_GPU.ipynb
+3. LightGBM model, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/VPP_LGBM_GPU_0.4506.ipynb.
 
 What we plan to do:
 1. Fix train issues of LightGBM model
