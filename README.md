@@ -142,3 +142,22 @@ What we plan to do:
    1. blending
    2. Complete https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_eda_V8_GPU.ipynb
    3. Check  Temporal Fusion Transformers (TFT) for Interpretable Multi-horizon Time Series Forecasting, https://arxiv.org/abs/1912.09363
+
+## meeting 10/23
+What we did:
+1. Blend. PL 0.138. Good job, Chris.
+2. Finding tree-based model
+3. Transformer encoder didn't improve CV or PL score.
+
+## meeting 10/24
+No meeting
+
+## meeting 10/25
+What we did:
+1. added Auto encoder. https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_gb_rescaling_V12_GPU.ipynb
+2. LightGBM model, https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/VPP_LGBM_GPU_0.4506.ipynb.
+
+What we plan to do:
+1. Fix train issues of LightGBM model
+2. Change parameters for Auto encode.
+3. Try to use wavenet for 50__20, 50__50
