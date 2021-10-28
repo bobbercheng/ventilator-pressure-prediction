@@ -162,3 +162,12 @@ What we plan to do:
 1. Fix train issues of LightGBM model
 2. Change parameters for Auto encode.
 3. Try to use wavenet for 50__20, 50__50
+
+## meeting 10/25
+What we did:
+1. Wavenet archives very good CV for 50__20, 50__50 but it doesn't improve public score. Wavenet has bad CV for fold#1 if whole train is used. It may be caused by that LSTM part is too powerful and LSTM part has fixed weight trained from fold #1.
+
+What we plan to do:
+1. Run LSTM model with TPU fully with 66 features. It will give us model.
+2. Retain LSTM and Wavenet together instead of fixing LSTM weight.
+3. Retain LSTM and Wavenet from begin.
