@@ -163,11 +163,19 @@ What we plan to do:
 2. Change parameters for Auto encode.
 3. Try to use wavenet for 50__20, 50__50
 
-## meeting 10/25
+## meeting 10/27
 What we did:
 1. Wavenet archives very good CV for 50__20, 50__50 but it doesn't improve public score. Wavenet has bad CV for fold#1 if whole train is used. It may be caused by that LSTM part is too powerful and LSTM part has fixed weight trained from fold #1.
 
 What we plan to do:
-1. Run LSTM model with TPU fully with 66 features. It will give us model.
+1. Run LSTM model with TPU fully with 66 features. It will give us base-model with 7 fold
 2. Retain LSTM and Wavenet together instead of fixing LSTM weight.
 3. Retain LSTM and Wavenet from begin.
+
+## meeting 10/28
+What we did:
+1. Run LSTM model with TPU fully with 66 features. It will give us base-model with 7 fold. In progress.
+2. Retain LSTM and Wavenet together instead of fixing LSTM weight. No improve. CV 0.160
+3. Fixed LSTM to the -4 layer instead of -3 layer, no improve.
+4. Change loss function to MeanSquaredError, no improve.
+5. Retain LSTM and Wavenet from begin. no improve.
