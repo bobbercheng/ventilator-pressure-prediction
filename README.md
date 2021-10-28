@@ -175,7 +175,8 @@ What we plan to do:
 ## meeting 10/28
 What we did:
 1. Run LSTM model with TPU fully with 66 features. It will give us base-model with 7 fold. In progress.
-2. Retain LSTM and Wavenet together instead of fixing LSTM weight. No improve. CV 0.160
-3. Fixed LSTM to the -4 layer instead of -3 layer, no improve.
+2. Retain LSTM and Wavenet together instead of fixing LSTM weight. No improve. CV 0.161
+3. Fixed LSTM to the -4 layer instead of -3 layer, no improve. Fixed LSTM to the -3, CV 1.59xxx, a little bit improvement.
 4. Change loss function to MeanSquaredError, no improve.
-5. Retain LSTM and Wavenet from begin. no improve.
+5. Retain LSTM and Wavenet from begin. no improve. CV 0.163
+6. Increase loss for 50__50, 50__20. In progress.
