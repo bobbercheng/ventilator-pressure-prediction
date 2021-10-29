@@ -179,4 +179,5 @@ What we did:
 3. Fixed LSTM to the -4 layer instead of -3 layer, no improve. Fixed LSTM to the -3, CV 1.59xxx, a little bit improvement.
 4. Change loss function to MeanSquaredError, no improve.
 5. Retain LSTM and Wavenet from begin. no improve. CV 0.163
-6. Increase loss for 50__50, 50__20. In progress.
+6. Increase loss of RC 50__50, 50__20 for LSTM/Wavenet model. No obvious change for both train from scratch or fix LSTM parts.
+7. Increase loss of RC 50__50, 50__20 for LSTM/Transformer_encoder
