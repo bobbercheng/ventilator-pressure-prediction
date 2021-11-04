@@ -107,7 +107,7 @@ Next Plan:
   2. Implemented full Transformer https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/ventilator_pressure_transformer_V6.ipynb. However, V6 doesn't converge as Transformer-Encoder.
   3. Analyze predict https://github.com/bobbercheng/ventilator-pressure-prediction/blob/master/Analyze_predict_data.ipynb.
      1. Mean of MAE has long tail. It's normal.
-     2. No zero error, 这就意味可以尝试用分类来减少误差
+     2. No zero error, it may mean we can use catalog to reduce loss.
      3. When pressure changes dymatically, it cannot predict well.
      4. Different RC has different error distribution
      20-10 - MAE  0.15342606138845297, count: 184106
