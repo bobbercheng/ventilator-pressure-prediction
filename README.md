@@ -181,3 +181,12 @@ What we did:
 5. Retain LSTM and Wavenet from begin. no improve. CV 0.163
 6. Increase loss of RC 50__50, 50__20 for LSTM/Wavenet model. No obvious change for both train from scratch or fix LSTM parts.
 7. Increase loss of RC 50__50, 50__20 for LSTM/Transformer_encoder
+
+# Meeting 11/5
+Chris's transformer:
+1. Batch size 64, 11 folder -> 32 folder
+2. 3 Output, pressure and pressure.diff()
+3. Connection weight for each transformer layer. 0.7: 0.3. feat_dim = train.shape[-1] + 32, embed_dim = 64, ff_dim=128
+4. Use Consin restart learning rate scheduler. No earlier stop.
+5. Use whole train data without validation reserve for the best result..
+6. Retain again with 32 shuffled folder data and different random seed.
